@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "python",
+            "name": "1. ВАНКЛИК: Полная демонстрация Лаб 3 (Расчет грид-системы BOINC)",
+            "request": "launch",
+            "program": "${workspaceFolder}/boinc_calculations.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "python",
+            "name": "2. Снимок Состояния BOINC: capture_boinc.py",
+            "request": "launch",
+            "program": "${workspaceFolder}/capture_boinc.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
